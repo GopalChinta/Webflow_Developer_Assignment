@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f0f4f8;
+}
+.slider-container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 280px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+.card p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 36px;
+  height: 60px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+}
+#prev {
+  left: -10px;
+}
+#next {
+  right: -10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    min-width: 90%;
+  }
+  .nav-btn {
+    width: 28px;
+    height: 48px;
+    font-size: 18px;
+  }
+}
+
