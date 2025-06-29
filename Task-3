@@ -1,0 +1,18 @@
+# Assignment for Webflow Developer
+
+## ✅ Task 3: Make Tool Integration
+
+### 🔗 Links
+
+- 🔹 Form Link: https://venu-gopals-awesome-site.webflow.io/
+- 🔹 Google Sheet (View-only): https://docs.google.com/spreadsheets/d/1G6iA-ardBPC2Mk11Bn0Oy7uRLu47jMTeZhH6T0u1Pws/edit?usp=sharing
+- 🔹 Demo Video: https://www.loom.com/share/d12473fd142f42f2a57ab85ae56e0223?sid=1823045a-beb9-4b13-b823-c9fd54b50b91
+---
+
+### 📋 Task Description
+
+- A Webflow form collects **Name** and **Email**
+- The form is connected to **Make.com** via a custom webhook
+- Submissions are:
+  - ✅ Saved to Google Sheets
+  - ✅ A confirmation email is sent using the Email module
